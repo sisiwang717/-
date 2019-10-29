@@ -1,0 +1,17 @@
+public class RegularPolygonDamo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		RegularPolygon r1 = new RegularPolygon();
+		System.out.println(r1);
+		System.out.println("对象一周长 ： " + r1.getPerimeter() + "对象一面积：" + r1.getArea());
+		
+		RegularPolygon r2 = new RegularPolygon(6,4);
+		System.out.println("对象二周长 ： " + r2.getPerimeter() + "对象二面积：" + r2.getArea());
+		
+		RegularPolygon r3 = new RegularPolygon(10,4,5.6,7.8);
+		System.out.println("对象三周长 ： " + r3.getPerimeter() + "对象三面积：" + r3.getArea());
+
+	}
+
+}
